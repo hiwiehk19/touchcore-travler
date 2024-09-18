@@ -5,7 +5,7 @@ const Header = () => (
   <header className="flex flex-col items-center p-0 gap-4 absolute w-[956px] h-[275px] left-1/2 transform -translate-x-1/2 top-[217.46px] bg-black">
    
    
-    <h1 className="text-4xl font-bold mb-4 text-white">
+    <h1 className="w-[956px] h-[166px] text-[64px] font-normal leading-[1.3] text-center text-white font-brfirma">
       Start selling travel today on your own website
     </h1>
     <p class="w-[956px] h-[27px] text-base font-normal leading-[1.7] text-center text-[#6D7C94] font-firma">
