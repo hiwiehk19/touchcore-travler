@@ -13,7 +13,7 @@ function App() {
        {/* <HeroSection /> */}
       <FastestWay />
      <EverythingYouNeed />
-      {/* <PaymentsAndOrder /> */}
+       <PaymentsAndOrder /> 
        <CallToAction /> 
     </div>
   );
