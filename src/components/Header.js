@@ -29,9 +29,9 @@ const ExistingUserLink = () => {
   return (
     <div className=" h-[898px] bg-black relative">
       {/* Main Text Section */}
-      <div className="flex flex-col items-center gap-4 absolute w-[956px] h-[275px] left-1/2 transform -translate-x-1/2 top-[217.46px]">
+      <div className="flex flex-col items-center gap-4 absolute sm:w-full w-[956px] h-[275px] left-1/2 transform -translate-x-1/2 top-[217.46px]">
         {/* Large Title */}
-        <h1 className="w-[956px] h-[166px] text-[64px] font-black leading-[1.3] text-center text-white">
+        <h1 className="sm:w-full  h-[166px] text-4xl md:text-[64px]  font-black leading-[1.3] text-center text-white">
           Start selling travel today on your own website
         </h1>
 
@@ -49,14 +49,10 @@ const ExistingUserLink = () => {
       </div>
 
       {/* Background Image Template */}
-      <div className="absolute bg-hero bg-no-repeat bg-cover bg-center w-[800px] h-[510px] left-[330.49px] top-[573.46px] bg-[url('../public/images/LinksTemplate13.png')] border-[5px] border-[#D4D8DD] rounded-[15px]"></div>
+      <div className="sm:hidden md:block absolute bg-hero bg-no-repeat bg-cover bg-center w-[800px] h-[510px] left-[330.49px] top-[573.46px] bg-[url('../public/images/LinksTemplate13.png')] border-[5px] border-[#D4D8DD] rounded-[15px]"></div>
 
-      {/* Dashboard Navigation */}
-      <div className="flex flex-col items-center w-[1440px] h-[68px] absolute top-0 bg-transparent">
-        {/* Optional hidden elements */}
-        <div className="hidden w-[1440px] h-[68px] bg-[#F8F8F8]"></div>
-        <div className="hidden w-[1440px] h-[68px] bg-white"></div>
-      </div>
+     
+      
     </div>
   );
 };

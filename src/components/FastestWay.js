@@ -4,14 +4,14 @@ const FastestWay = () => {
   return (
     <div className="z-50 flex flex-col item-center justify-center p-[96px]   gap-[66px] h-[506px] bg-white">
       {/* Section Title */}
-      <div className="flex flex-col items-center gap-[8px] w-[1160.75px] h-[47px]">
-        <h1 className="w-[1160.75px] h-[47px] text-[36px] font-bold leading-[1.3] text-center text-black">
+      <div className="flex flex-col items-center gap-[8px] w-full h-[47px]">
+        <h1 className="w-full h-[47px] text-[36px] font-bold leading-[1.3] text-center text-black">
           The fastest way to sell travel
         </h1>
       </div>
 
       {/* Card Grid */}
-      <div className="flex flex-row flex-wrap items-center gap-[24px] w-[1200px] h-[201px]">
+      <div className="flex flex-row flex-wrap items-center gap-[24px] w-full  h-[201px]">
         
         {/* Card 1 */}
         <div className="flex flex-col items-start gap-[8px] w-[384px] h-[201px]">
