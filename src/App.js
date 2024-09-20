@@ -5,6 +5,8 @@ import FastestWay from "./components/FastestWay";
  import EverythingYouNeed from "./components/EverythingYouNeed";
 import PaymentsAndOrder from "./components/PaymentsAndOrder";
 import CallToAction from "./components/CallToAction";
+import EasyToUse from "./components/EasyToUse";
+
 
 function App() {
   return (
@@ -13,8 +15,8 @@ function App() {
        {/* <HeroSection /> */}
       <FastestWay />
      <EverythingYouNeed />
-       <PaymentsAndOrder /> 
-       <CallToAction /> 
+       {/* <PaymentsAndOrder />  */}
+       <EasyToUse/> 
     </div>
   );
 }
